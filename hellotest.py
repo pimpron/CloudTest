@@ -11,7 +11,7 @@ def aboutUs () :
     return render_template("aboutUs.html")
 
     
-@app.route('/John')
+@app.route('/')
 def John():
     return 'Hello  Yok Pimpron Rattanawan 6006021620029.'
 
