@@ -13,7 +13,7 @@ def aboutUs () :
     
 @app.route('/John')
 def John():
-    return 'Hello John.'
+    return 'Hello  Yok Pimpron Rattanawan 6006021620029.'
 
 # @app.route('/welcome/<name>')
 # def Welcome_name(name) : 
@@ -21,6 +21,6 @@ def John():
 
 if __name__ == '__main__':
     # app.debug = True
-    # app.run(host = '0.0.0.0', port = 80 )
+    app.run(host = '0.0.0.0', port = 80 )
     # app.run(host = '0.0.0.0')
-    app.run(debug=True)
+    # app.run(debug=True)
