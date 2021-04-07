@@ -11,7 +11,7 @@ def aboutUs () :
     return render_template("aboutUs.html")
 
     
-@app.route('/John')
+@app.route('/')
 def John():
     return 'Hello John.'
 
@@ -21,6 +21,6 @@ def John():
 
 if __name__ == '__main__':
     # app.debug = True
-    # app.run(host = '0.0.0.0', port = 80 )
+     app.run(host = '0.0.0.0', port = 80 )
     # app.run(host = '0.0.0.0')
-    app.run(debug=True)
+   # app.run(debug=True)
