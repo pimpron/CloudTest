@@ -7,7 +7,7 @@ app = Flask(__name__)
     
 @app.route('/')
 def John():
-    return 'Pimpron Rattanawan 6006021620029.'
+    return 'พิมพ์พร รัตนวรรณ์ 6006021620029.'
 
 # @app.route('/welcome/<name>')
 # def Welcome_name(name) : 
